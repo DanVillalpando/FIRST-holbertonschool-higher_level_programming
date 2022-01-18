@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 def raise_exception():
-raise NameError('HiThere')
+    try:
+        raise(TypeError)
+    except:
+        raise
