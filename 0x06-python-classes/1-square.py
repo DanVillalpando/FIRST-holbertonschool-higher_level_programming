@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Square """
+
+
 class Square:
     """Private attribute"""
     def __init__(self, size):

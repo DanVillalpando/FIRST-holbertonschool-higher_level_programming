@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Area """
+
+
 class Square(object):
     """ Defines class size"""
     def __init__(self, size=0):
