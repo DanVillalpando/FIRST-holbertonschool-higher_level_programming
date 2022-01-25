@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" Simple Rectangle"""
+""" Simple Rectangle """
 
 
 class Rectangle:
     """ Define a rectangle """
-
     def __init__(self, width=0, height=0):
+	""" Initializa rectangle """
         self.width = width
         self.height = height
 
