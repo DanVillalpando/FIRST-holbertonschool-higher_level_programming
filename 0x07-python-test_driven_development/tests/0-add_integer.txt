@@ -1,0 +1,29 @@
+How to use 0-add_integer.py
+
+>>> add_integer = __import__('0-add_integer').add_integer
+Adding
+
+>>> add_integer(7, 13)
+20
+
+Float numbers
+
+>>> add_integer(25.1, 25.2)
+50 
+
+Negative numbers
+
+>>> add_integer(-10, 50)
+40 
+
+If a  not an integer
+
+>>> add_integer("word", 10)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+If b not an integer
+
+>>> add_integer(1, "word")
+Traceback (most recent call last):
+TypeError: b must be an integer

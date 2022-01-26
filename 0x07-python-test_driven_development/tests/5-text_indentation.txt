@@ -1,0 +1,15 @@
+Use of 5-text_indentation.py
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("Hello, where r u?")
+Hello, where r u?
+<BLANKLINE>
+
+#Longer string
+
+>>> text_indentation('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<BLANKLINE>
+Quonam modo?
+<BLANKLINE>

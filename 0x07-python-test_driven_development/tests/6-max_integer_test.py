@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import unittest
+max_integer = __import__('6-max_integer_test.py').max_integer
+    """ Find the max integer in a list """
+    class TestMax(unittest.Testcase):
+    """ Contains tests for the function max_integer
+    """
+        def test_max(self):
+            self.assertEqual(max_integer([1, 2, 3, 4], 4))
+            self.assertEqual(max_integer(([1, 3, 6, 2], 6))
+            self.assertEqual(max_integer([1, 7, 0, -3]), 7)
+            self.assertEqual(max_integer([]), None)
+            with self.assertRaises(TypeError):
+                max_integer(["hello", 1, 2])
+        #more def tests if we need them
