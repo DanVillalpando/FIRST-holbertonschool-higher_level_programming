@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Simple Rectangle does nothing
+Simple Rectangle empty class, does nothing
 """
 
 
-class Rectangle:
+class Rectangle():
 	"""
-        Define a rectangle
+        Defines a rectangle
 	"""
 
         pass
