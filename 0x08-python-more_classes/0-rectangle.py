@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-#
-#
-
-""" Simple Rectangle """
+"""
+Simple Rectangle
+"""
 
 
 class Rectangle:
-	""" Define a rectangle """
+	""" 
+        Define a rectangle
+	"""
+
         pass
