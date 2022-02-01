@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """ 11. Square no.2
 """
