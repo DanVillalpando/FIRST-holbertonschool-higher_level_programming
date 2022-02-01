@@ -1,0 +1,8 @@
+>>> My_list = __import__('1-my_list').Mylist
+>>> l = My_list()
+>>> l.append(1)
+>>> l.append(12)
+>>> l.append(9)
+>>> l.append(0)
+>>> l.print_sorted()
+[0, 1, 9, 12]
